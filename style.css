@@ -1,0 +1,148 @@
+*{
+    background-color: #f3f3f3
+}
+input{
+    background-color: white;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/12/21/29/false-2061131_1280.png");
+    background-repeat: no-repeat;
+    background-size: 0px;
+    background-position: right;
+}
+form{
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 1.2em;
+}
+section{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    display: block;
+}
+section p{
+    float: left;
+    padding-top: 20px;
+    background-color: #888888;
+}
+section span{
+    background-color: #888888;
+}
+section img{
+    background-color: #888888;
+}
+.theform {
+    margin: auto;
+    position: relative;
+}
+.stuff{
+    margin: auto;
+    width: 50%;
+    position: relative;
+}
+.thebutton{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+#thecard{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    display: block;
+    visibility: hidden;
+    background-color: #888888;
+}
+.cardnames{
+    position: relative;
+    background-color: #888888;
+}
+.cardnames p{
+    margin: 0;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, 40%);
+    background-color: #888888;
+}
+.profilepicture{
+    float:left;
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 10px;
+    background-color: #888888;
+}
+#field1, #field2, #field3, #field4, #field5{
+    background-size: 0px;
+}
+.tooltip1, .tooltip2, .tooltip3, .tooltip4, .tooltip5{
+    position: relative;
+    display: inline-block;
+    width: 150%;
+}
+.tooltipcontainer{
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    margin-top: 9px;
+}
+#tooltiptext1, #tooltiptext2, #tooltiptext3, #tooltiptext4, #tooltiptext5{
+    visibility: hidden;
+    background-color: #ff4949;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#lnameid{
+    padding-left: 3px;
+    font-size: 2em;
+}
+#fnameid{
+    font-size: 2em;
+    padding-left: 20px;
+}
+.clear{
+    clear: both;
+}
+dt{
+    display: block;
+    float:left;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+    background-color: #888888;
+}
+dt:after{
+    content: ":";
+}
+dd{
+    display:block;
+    background-color: #888888;
+}
+.phoneandaddress{
+    font-size: 1.2em;
+    background-color: #888888;
+}
+#phoneid, #addressid, #ageid{
+    padding-left: 30px;
+    background-color: #888888;
+}

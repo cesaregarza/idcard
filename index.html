@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet">
+
+
+<title>ID Creator</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Let's Create an ID Card!</h1>
+        
+        <div class = "theform" width=100%>
+            <div class = "stuff">
+                <form action="" method="">
+                    <label>First Name: </label>
+                    <br>
+                    <input id="field1" type="text">
+                    <div class = "tooltipcontainer">
+                        <div class="tooltip1"><span id="tooltiptext1">Dynamic Tooltip</span></div>
+                    </div><br>
+                    <label>Last Name: </label>
+                    <br>
+                    <input id="field2" type="text">
+                    <div class="tooltipcontainer">
+                        <div class="tooltip2"><span id="tooltiptext2">Dynamic Tooltip</span></div>
+                    </div><br>
+                    <label>Age: </label>
+                    <br>
+                    <input id="field5" type="text">
+                    <div class = "tooltipcontainer">
+                        <div class="tooltip5"><span id="tooltiptext5">Dynamic Tooltip</span></div>
+                    </div>
+                    <br>
+                    <label>Phone Number: </label>
+                    <br>
+                    <input id="field3" type="text">
+                    <div class = "tooltipcontainer">
+                        <div class="tooltip3"><span id="tooltiptext3">Dynamic Tooltip</span></div>
+                    </div>
+                    <br>
+                    <label>Address: </label>
+                    <br>
+                    <input id="field4" type="text">
+                    <div class="tooltipcontainer">
+                        <div class="tooltip4"><span id="tooltiptext4">Dynamic Tooltip</span></div>
+                    </div>
+                    <br>       
+                  </form>
+                  <br>
+                  <div class="thebutton">                  
+                      <button id="sbmt" onclick="validateForm()">Create my ID</button>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="thecard">
+            <div class="profilepicture">
+                <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-1-1/128/gender-male2-512.png" width = "130px">
+            </div>
+            <div class="cardnames">
+                <p><span id="fnameid">FirstName</span> <span id="lnameid">LastName</span></p>
+            </div>
+            <div class="clear"></div>
+            <div class = "phoneandaddress">
+                <dl>
+                    <dt>Age </dt><dd id="ageid">25</dd>
+                    <dt>Phone</dt><dd id="phoneid">(555)555-5555</dd>
+                    <dt>Address</dt><dd id="addressid">123 Address Lane</dd>
+                </dl>
+            </div>
+        </div>
+    </section> 
+<p id="FullName"></p>
+<script src="script.js"></script>
+</body>
+
+</html>
